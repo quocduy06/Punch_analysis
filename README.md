@@ -22,7 +22,6 @@ The repository is structured following standard Embedded Systems and Data Scienc
 Aikido_Project/
 ├── data/
 │   ├── raw/                  # Contains 17+ raw telemetry CSV files collected from sparring sessions
-│   └── processed/            # Contains `master_dataset_aikido.csv` after cleaning, alignment, and formatting
 ├── firmware/
 │   ├── main.cpp              # Primary C++ source code for ESP32-S3 (Sensor polling and data streaming)
 │   └── classifier.h          # Embedded C implementation for real-time Heart Rate Recovery (HRR) calculation
